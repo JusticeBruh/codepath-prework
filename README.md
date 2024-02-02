@@ -12,16 +12,22 @@ The following **required** functionality is completed:
 
 - [ ] Users are see a screen with three labels and a button
 - [ ] Tapping the button changes the screen color to a random color
+
+## Updates
+- [ ] Added new buttons (red and white), that when clicked changes the color of the screen to red and white respectively.
  
 ## Video Walkthrough
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
-
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+<div>
+    <a href="https://www.loom.com/share/63b1453486c0488d980d15b33ebd83c0">
+    </a>
+    <a href="https://www.loom.com/share/63b1453486c0488d980d15b33ebd83c0">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/63b1453486c0488d980d15b33ebd83c0-with-play.gif">
+    </a>
+  </div>.
 
 ## App Brainstorming
 
-## Notes
 List of favorite applications and why
 1. Duolingo
     - Duolingo has a green friendly color scheme and has a simple font for everyone to understand. 
@@ -41,6 +47,9 @@ List of favorite applications and why
 Other app idea that I want to build
 - I would like to build a skincare app called "Porify." Upon initial installation, it will need an intro page with a few slides showcasing what the app does - providing skincare tips, saving routines and providing links to buy products from other stores - and initializing user preferences. After, the user is asked to enter login information for personalized app experience. Once authentication is finished, the user is greeted with a home page of some warm color schemes such as gold and translucent warm purple. The home page has a bottom task bar that consists of a home button, a “my skin” button,  a “my products” button, a “my routine” button, and a help button. On the top left corner of the home page will be a settings button that a user can use to change account settings, preferences, skin type, etc. Each of the buttons on the taskbar will transition to a corresponding screen. So clicking on the “my routine button” for example, will update the screen and show you a screen of a specialized routine that the user created or can create by selecting what products they use and what time (am or pm) they should be followed by. The bottom task bar will still be at the bottom of the screen so the user can easily go back to the homepage or any other screens (sections).
 
+
+
+## Notes
 
 Challenges encountered while building the app.
 - The emulator needed the latest iOS 17.2 version in order to run, but xCode could not download it until the Mac was restarted.

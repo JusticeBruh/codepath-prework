@@ -38,17 +38,45 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kh8-bN-CbA">
-                                <rect key="frame" x="132" y="409" width="129" height="35"/>
+                                <rect key="frame" x="130" y="409" width="133" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Change Color">
+                                <buttonConfiguration key="configuration" style="plain" title="Random Color">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="backgroundColor" systemColor="labelColor"/>
                                     </backgroundConfiguration>
-                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="changeBackgroundColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nd4-HQ-eES"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hlg-SB-Nge">
+                                <rect key="frame" x="169" y="586" width="54" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Red">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="changeBackgroundRed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FxC-oS-iQ2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIH-cy-Vfr">
+                                <rect key="frame" x="162" y="498" width="69" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="White">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="changeBackgroundWhite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oBa-3u-8pV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -65,11 +93,11 @@
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBackgroundColor">
+        <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

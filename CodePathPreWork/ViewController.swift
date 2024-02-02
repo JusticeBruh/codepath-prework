@@ -20,6 +20,21 @@ class ViewController: UIViewController {
             view.backgroundColor = randomColor
     }
     
+    
+    
+    @IBAction func changeBackgroundWhite(_ sender: UIButton) {
+        let whiteColor = changeToWhite()
+            view.backgroundColor = whiteColor
+    }
+    
+    
+    @IBAction func changeBackgroundRed(_ sender: UIButton) {
+        let redColor = changeToRed()
+            view.backgroundColor = redColor
+    }
+    
+    
+    
     func changeColor() -> UIColor {
         
         let red = CGFloat.random(in:0...1 )
@@ -30,5 +45,23 @@ class ViewController: UIViewController {
     }
     
     
+    
+    func changeToWhite() -> UIColor {
+        
+        let red = CGFloat(255)
+        let green = CGFloat(255)
+        let blue = CGFloat(255)
+        
+        return UIColor(red: red, green: green, blue: blue, alpha: 0.5)
+    }
+    
+    func changeToRed() -> UIColor {
+        
+        let red = CGFloat(255)
+        let green = CGFloat(0)
+        let blue = CGFloat(0)
+        
+        return UIColor(red: red, green: green, blue: blue, alpha: 0.5)
+    }
 }
 
